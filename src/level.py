@@ -1,5 +1,5 @@
-from obstacles import Block
-from bullet import Bullet
+from src.obstacles import Block
+from src.bullet import Bullet
 
 class Level:
     def __init__(self, level):
@@ -19,5 +19,3 @@ class Level:
         for tile in self.tiles:
             tile.draw(screen)
             player.updateCollisions(tile)
-
-

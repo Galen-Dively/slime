@@ -1,7 +1,7 @@
 import pygame
 import random
-from gun import Gun
-from bullet import Bullet
+from src.gun import Gun
+from src.bullet import Bullet
 
 
 class Player:
